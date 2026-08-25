@@ -1,0 +1,54 @@
+:root {
+  --bg: #07140f;
+  --bg-deep: #04100c;
+  --panel: #10241c;
+  --panel-strong: #16342a;
+  --line: rgba(167, 214, 176, 0.18);
+  --moss: #8fd4a2;
+  --moss-strong: #6fbf86;
+  --gold: #d4c3a3;
+  --cream: #e9f3ec;
+  --muted: #9bb5a6;
+  --shadow: 0 24px 50px rgba(0, 0, 0, 0.28);
+  --serif: 'Fraunces', Georgia, serif;
+  --sans: 'Outfit', system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--sans);
+  background:
+    radial-gradient(circle at 12% -10%, rgba(111, 191, 134, 0.16), transparent 42%),
+    radial-gradient(circle at 90% 8%, rgba(212, 195, 163, 0.08), transparent 36%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-deep) 100%);
+  color: var(--cream);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
