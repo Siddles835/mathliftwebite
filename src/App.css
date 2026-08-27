@@ -212,6 +212,16 @@ h2 {
   line-height: 1.65;
 }
 
+.person-card__photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 18%;
+  background: #0c1d16;
+  border-bottom: 1px solid var(--line);
+}
+
 .photo-placeholder {
   position: relative;
   display: grid;

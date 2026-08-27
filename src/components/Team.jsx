@@ -8,8 +8,8 @@ export default function Team() {
         <p className="eyebrow">The team</p>
         <h2>Three people, one application.</h2>
         <p>
-          Photos will be added here. Until then, each card uses a placeholder
-          portrait so the layout is ready.
+          Lalith, Jayanth, and Sidhaanth keep MathLift moving — from the product
+          itself to the classrooms that use it.
         </p>
       </div>
       <div className="team__grid">
